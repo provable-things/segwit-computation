@@ -1,6 +1,8 @@
 # segwit-computation
 
-Intended to be used with Oraclize's off-chain computation service
+Intended to be used with Oraclize's off-chain computation service.
+
+Looks for the initial last `ARG0` block headers via a Bitcoin SPV node, returning the count of those last blocks signalling for segwit activation.
 
 ### Guide
 
